@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+  /* font-family: Arial, sans-serif; */
+  background-image: url(Images/image.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  color:white;
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  position: relative;
+}
+.head{
+  position: absolute;
+  left: 0;
+  color:white;
+
+}
+
+/* Links */
+a {
+  
+  text-decoration: none;
+  color: white;
+  /* font-weight: bold; */
+  margin: 10px;
+}
+
+a:hover {
+  color: gold;
+}
+
+/* Form Styling */
+form {
+  background: white;
+  
+  padding:10px 80px 30px  ;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.inpBox{
+  width: 30%;
+}
+
+/* Buttons */
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Layout */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Transactions List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.transaction{
+  width: 50%;
+}
